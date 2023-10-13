@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', '[postgres://test_user:JKEuMgwHLcdnrQIQbnyZ8Mbec5Ih6RDR@dpg-ckkklaua18fc73ainpf0-a/goget_app_db_ts3c]'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
