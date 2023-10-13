@@ -2,7 +2,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.1",
@@ -39,7 +42,7 @@
         "psr-4": {
             "Tests\\": "tests/"
         },
-        "files":[
+        "files": [
             "app/Http/Helpers.php"
         ]
     },
@@ -71,7 +74,8 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "hirak/prestissimo": true
         }
     },
     "minimum-stability": "stable",
