@@ -166,8 +166,8 @@ Route::group(['prefix' => '/admin', 'middleware' => ['auth', 'admin']], function
     Route::get('/notifications', [NotificationController::class, 'index'])->name('all.notification');
     Route::delete('/notification/{id}', [NotificationController::class, 'delete'])->name('notification.delete');
     // Password Change
-    Route::get('change-password', [AdminController::class, 'changePassword'])->name('change.password.form');
-    Route::post('change-password', [AdminController::class, 'changPasswordStore'])->name('change.password');
+    // Route::get('change-password', [AdminController::class, 'changePassword'])->name('change.password.form');
+    // Route::post('change-password', [AdminController::class, 'changPasswordStore'])->name('change-password');
 });
 
 
