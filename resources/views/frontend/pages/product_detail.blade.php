@@ -199,7 +199,7 @@
                                                             <!-- Form -->
                                                             @auth
                                                                 <form class="form" method="post"
-                                                                    action="{{ route('review.store', $product_detail->slug) }}">
+                                                                    action="{{ route('reviews', $product_detail->slug) }}">
                                                                     @csrf
                                                                     <div class="row">
                                                                         <div class="col-lg-12 col-12">

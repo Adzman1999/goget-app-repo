@@ -106,7 +106,7 @@ Route::post('/subscribe', [FrontendController::class, 'subscribe'])->name('subsc
 
 // Product Review
 Route::resource('/review', 'ProductReviewController');
-Route::post('product/{slug}/review', [ProductReviewController::class, 'store'])->name('review.store');
+Route::post('product/{slug}/review', [ProductReviewController::class, 'store'])->name('reviews');
 
 // Post Comment
 Route::post('post/{slug}/comment', [PostCommentController::class, 'store'])->name('post-comment.store');
